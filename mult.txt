@@ -1,0 +1,4 @@
+
+El resultado de multiplicar 255 por h-F es -111011110001 (binario)
+
+El resultado de multiplicar b11 por b-10 es -110 (binario)
