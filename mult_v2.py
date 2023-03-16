@@ -96,7 +96,7 @@ def suma(stracarreo,string1,string2):       #toma el acarreo mas los dos termino
 #    return (string)
 
 def multiplicacion(A,B):        #multiplica ambos binarios
-    print(A,B)
+    #print(A,B)
     Z=[]
     strA=str(A)
     strB=str(B)    
@@ -107,7 +107,7 @@ def multiplicacion(A,B):        #multiplica ambos binarios
             #p=completar(p)
             Z.append(p)
             i=i-1
-        print(Z)
+        #print(Z)
         return astring(Z)
     else:
         i=len(strA)-1
@@ -116,7 +116,7 @@ def multiplicacion(A,B):        #multiplica ambos binarios
             #p=completar(p)
             Z.append(p)
             i=i-1
-        print(Z)
+        #print(Z)
         return astring(Z)                   #retorna una lista con los numeros a sumar
 
 def split(lista):               #divide el numero en dos partes: entera y fraccionaria
@@ -407,10 +407,13 @@ print('3. Los factores se pueden expresar en notación decimal, hexadecimal y bi
 print('4. Para indicar la base numérica de los factores, se utilizará una letra delante')
 print('del número de la siguiente forma: d25, h2A y b10. La letra d indica un número en')
 print('decimal, h indica hexadecimal y b de binario')
-print('5. En caso de no indicarlo, se tomará el número como decimal\n\n')
+print('5. En caso de no indicarlo, se tomará el número como decimal')
+print('6. Para numeros negativos se debe colocar el signo despues de la letra que indica')
+print('el tipo numerico\n\n')
 
 while True:    
     x=str(input('||||||||||||||||||||||\nINGRESE PRIMER FACTOR:\n'))
+    a=x
     if x==0:
         num1=0
         continue
@@ -418,10 +421,11 @@ while True:
         num1==1
     elif num(x) != False:
         num1,sig1=num(x)
-        print(num1,'|',sig1)
+        #print(num1,'|',sig1)
     else:
         continue
     x=str(input('-----------------------\nINGRESE SEGUNDO FACTOR:\n'))
+    b=x
     if x==0:
         num2=0
         continue
@@ -429,7 +433,7 @@ while True:
         num2=1
     elif num(x) != False:
         num2,sig2=num(x)
-        print(num2,'|',sig2)
+        #print(num2,'|',sig2)
     else:
         continue
     if sig1!=sig2:
@@ -438,9 +442,17 @@ while True:
         sig=1
     #print(num1,num2)
     if num1==1:
-        print('\nEl PRODUCTO ES',sig*num1*num2)
+        #print('\nEl PRODUCTO ES',sig*num1*num2)
+        text=['\nEl resultado de multiplicar ',str(a),' por ',str(b),' es ',str(sig*num1*num2),' (binario)\n']
     elif num2==1:
-        print('\nEl PRODUCTO ES',sig*num1*num2)
+        #print('\nEl PRODUCTO ES',sig*num1*num2)
+        text=['\nEl resultado de multiplicar ',str(a),' por ',str(b),' es ',str(sig*num1*num2),' (binario)\n']
     else:
-        print('\nEl PRODUCTO ES',sig*int(producto(num1,num2)))
+        #print('\nEl PRODUCTO ES',sig*int(producto(num1,num2)))
+        text=['\nEl resultado de multiplicar ',str(a),' por ',str(b),' es ',str(sig*int(producto(num1,num2))),' (binario)\n']
+    text=listaAstring(text)    
+    print(text)
+    with open('C:/Users/Admin/tarea_1_dl_iisem2023/mult.txt','a') as f:
+        f.write(text)
+    
 print('\nFin de programa\n')
