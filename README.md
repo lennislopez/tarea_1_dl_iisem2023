@@ -3,5 +3,9 @@ DISENO LOGICO I SEMESTRE 2023 GRUPO 1
 Elaborado por Lennis Giovanni Lopez Mendoza
 Grupo de trabajo 10
 
-
 MULTIPLICADOR BINARIO
+
+Video explicativo:
+
+https://youtu.be/jkmJlCfzDpQ
+
