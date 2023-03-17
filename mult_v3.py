@@ -399,7 +399,14 @@ def num(x):
 ########################################################################################
 
 #MAIN
+        
+print('\n\nINSTITUTO TECNOLOGICO DE COSTA RICA')
+print('DISENO LOGICO I SEMESTRE 2023 GRUPO 1')
+print('Elaborado por Lennis Giovanni Lopez Mendoza')
+print('Grupo de trabajo 10')
+
 print('\n\nMULTIPLICADOR BINARIO\n\n')
+
 print('Especificación de entrada:\n\n')
 print('1. Maximo 8 bits por factor a multiplicar')
 print('2. Los valores de cada factor (2 factores exclusivamente)')

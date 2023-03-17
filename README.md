@@ -1,3 +1,7 @@
-Tarea 1 del curso de Diseno Logico I semestre del 2023
-
+INSTITUTO TECNOLOGICO DE COSTA RICA
+DISENO LOGICO I SEMESTRE 2023 GRUPO 1
 Elaborado por Lennis Giovanni Lopez Mendoza
+Grupo de trabajo 10
+
+
+MULTIPLICADOR BINARIO

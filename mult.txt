@@ -2,3 +2,23 @@
 El resultado de multiplicar 255 por h-F es -111011110001 (binario)
 
 El resultado de multiplicar b11 por b-10 es -110 (binario)
+
+El resultado de multiplicar b11 por hF1 es 1011010011 (binario)
+
+El resultado de multiplicar -255 por h0F es -111011110001 (binario)
+
+El resultado de multiplicar 1 por 1 es 1 (binario)
+
+El resultado de multiplicar -1 por b-100101 es 100101 (binario)
+
+El resultado de multiplicar hFF por b-10000000 es -111111110000000 (binario)
+
+El resultado de multiplicar -254 por h-A1 es 1001111110111110 (binario)
+
+El resultado de multiplicar d-1 por b0111 es -111 (binario)
+
+El resultado de multiplicar b-111 por 1 es -111 (binario)
+
+El resultado de multiplicar h-F por -1 es 1111 (binario)
+
+El resultado de multiplicar 255 por h-FF es -1111111000000001 (binario)
